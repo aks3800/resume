@@ -2,7 +2,7 @@ import React from 'react';
 
 function App() {
   return (
-    <div style={{background: 'red'}}>
+    <div>
       Resume
     </div>
   );
