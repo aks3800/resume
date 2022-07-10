@@ -10,7 +10,7 @@ const App = () => {
 				<div className="master-section custom-bg">
 					<MasterSection />
 				</div>
-				<div className="detail-section bg-primary">
+				<div className="detail-section">
 					<DetailSection />
 				</div>
 			</div>

@@ -11,7 +11,7 @@ const InfoComponent: React.FunctionComponent<IInfoComponentProps> = (props) => {
 		<div className="custom-bg">
 			<SectionHeader headerText="I N F O" />
 			<InfoItem heading="Name" caption="Akshat Sharma" icon="person" />
-			<InfoItem heading="Role" caption="Senior Software Developer" icon="badge" />
+			<InfoItem heading="Role" caption="Senior Software Engineer" icon="badge" />
 			<InfoItem heading="Address" caption="Noida, UP" icon="location_city" />
 			<InfoItem heading="Phone" caption="+91-9953005833" icon="phone_iphone" />
 			<InfoItem heading="Email" caption="akshatsharma3800@gmail.com" icon="email" />
