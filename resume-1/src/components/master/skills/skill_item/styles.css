@@ -1,0 +1,12 @@
+.custom .ProgressBar {
+	width: 100%;
+	border-radius: var(--spacing-m);
+	background: #9ea0a2 !important;
+}
+
+.custom .ProgressBar-indicator {
+	height: var(--spacing-m);
+	background-color: #424346;
+	border-radius: var(--spacing-m);
+	transition: width 200ms;
+}

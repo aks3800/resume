@@ -1,0 +1,37 @@
+.container {
+	height: 100vh;
+}
+
+.resume-container {
+	width: 21cm;
+	height: 29.7cm;
+}
+
+.master-section {
+	flex: 4;
+}
+
+.detail-section {
+	flex: 6;
+}
+
+.custom-bg {
+	background-color: #e1e2e4;
+}
+
+.italic {
+	font-style: italic !important;
+}
+
+.bold {
+	font-weight: bold !important;
+}
+
+.bolder {
+	font-weight: bolder !important;
+}
+
+.custom-divider {
+	background-color: #5b5d5f !important;
+	height: 2px !important;
+}
