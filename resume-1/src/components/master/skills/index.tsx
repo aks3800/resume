@@ -8,7 +8,9 @@ interface ISkillsComponentProps {}
 const SkillsComponent: React.FunctionComponent<ISkillsComponentProps> = (props) => {
 	return (
 		<div className="custom-bg">
-			<SectionHeader headerText="S K I L L S" />
+			<div className="px-8">
+				<SectionHeader headerText="S K I L L S" />
+			</div>
 			<SkillItem skillHeader="React" skillType={SkillType.Frontend} score={80} />
 			<SkillItem skillHeader="iOS" skillType={SkillType.Mobile} score={90} />
 			<SkillItem skillHeader="Flutter" skillType={SkillType.Mobile} score={90} />

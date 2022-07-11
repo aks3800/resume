@@ -11,9 +11,9 @@ const ProfileSection: React.FunctionComponent<IProfileSectionProps> = (props) =>
 			<Text className="py-6" appearance="subtle" size="small">
 				I am a versatile and high energy computer science enthusiast, with the distinction of
 				executing projects with best possible quality within strict time constraint. I have been
-				into Software Development, Application Maintenance / Support and Project Execution for
-				nearly 5 years. Skilled in analysing and gathering requirements, evaluating end-to-end use
-				cases and proper planning before execution.
+				into software development, application maintenance / support and project execution for
+				nearly 5 years. I am skilled in analysing and gathering requirements, evaluating end-to-end
+				use cases and proper planning before execution.
 			</Text>
 		</div>
 	);

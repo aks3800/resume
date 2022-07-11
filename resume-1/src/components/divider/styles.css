@@ -1,0 +1,12 @@
+.divider-horizontal {
+	flex-grow: 1;
+	height: var(--spacing-s);
+	background-color: var(--inverse-lighter) !important;
+}
+
+.divider-vertical {
+	flex-grow: 1;
+	height: 100%;
+	width: var(--spacing-s);
+	background-color: var(--inverse-lighter) !important;
+}

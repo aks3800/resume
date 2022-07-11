@@ -12,7 +12,7 @@ const MasterSection: React.FunctionComponent<IMasterSectionProps> = (props) => {
 			<div className="pt-6">
 				<InfoComponent />
 			</div>
-			<div className="pt-4 d-flex flex-column h-100">
+			<div className="pt-8 d-flex flex-column h-100">
 				<SkillsComponent />
 			</div>
 		</div>

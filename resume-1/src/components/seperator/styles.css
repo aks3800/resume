@@ -1,5 +1,4 @@
 .seperator {
-	flex-shrink: 0;
 	border-radius: 50%;
 	height: var(--spacing);
 	width: var(--spacing);

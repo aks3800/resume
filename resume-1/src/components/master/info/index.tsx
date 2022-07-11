@@ -9,7 +9,9 @@ interface IInfoComponentProps {}
 const InfoComponent: React.FunctionComponent<IInfoComponentProps> = (props) => {
 	return (
 		<div className="custom-bg">
-			<SectionHeader headerText="I N F O" />
+			<div className="px-8">
+				<SectionHeader headerText="I N F O" />
+			</div>
 			<InfoItem heading="Name" caption="Akshat Sharma" icon="person" />
 			<InfoItem heading="Role" caption="Senior Software Engineer" icon="badge" />
 			<InfoItem heading="Address" caption="Noida, UP" icon="location_city" />
