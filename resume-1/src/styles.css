@@ -7,6 +7,11 @@
 	height: 29.7cm;
 }
 
+.export-button-container {
+	position: fixed;
+	right: 20px;
+}
+
 .master-section {
 	flex: 4;
 }
