@@ -9,8 +9,12 @@ const DetailSection: React.FunctionComponent<IDetailSectionProps> = (props) => {
 	return (
 		<div className="pt-8 px-8">
 			<ProfileSection />
-			<ExperienceSection />
-			<EducationSection />
+			<div>
+				<ExperienceSection />
+			</div>
+			<div className="pt-10">
+				<EducationSection />
+			</div>
 		</div>
 	);
 };

@@ -34,6 +34,11 @@ const DetailItem: React.FunctionComponent<IDetailItemProps> = (props) => {
 				<Text className=" italic" appearance="subtle">
 					{caption}
 				</Text>
+				{description && (
+					<Text size="small" appearance="subtle" className="pt-4">
+						{description}
+					</Text>
+				)}
 			</div>
 		</div>
 	);
