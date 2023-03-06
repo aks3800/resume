@@ -14,8 +14,8 @@ const InfoComponent: React.FunctionComponent<IInfoComponentProps> = (props) => {
 			</div>
 			<InfoItem heading="Name" caption="Akshat Sharma" icon="person" />
 			<InfoItem heading="Role" caption="Senior Software Engineer" icon="badge" />
-			<InfoItem heading="Address" caption="Noida, UP" icon="location_city" />
-			<InfoItem heading="Phone" caption="+91-9953005833" icon="phone_iphone" />
+			<InfoItem heading="Address" caption="Abu Dhabi, UAE" icon="location_city" />
+			<InfoItem heading="Phone" caption="+971551053376 +919953005833" icon="phone_iphone" />
 			<InfoItem heading="Email" caption="akshatsharma3800@gmail.com" icon="email" />
 			<div className="d-flex pt-6 pl-10 ">
 				<Link appearance="subtle" href="https://github.com/aks3800">
