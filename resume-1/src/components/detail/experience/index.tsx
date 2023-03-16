@@ -24,7 +24,7 @@ const ExperienceSection: React.FunctionComponent<IExperienceSectionProps> = (pro
 						endYear="2020"
 						title="Software Engineer"
 						caption="Myntra-Jabong, Gurgaon (E-commerce)"
-						description="Worked on Jabong's native iOS mobile app for initial year and then contributed to Myntra's mobile app which was written on top of React native. Implemented rich notifications, seamless login and Myntra's category tab. Automated Jabong's iOS app using Jenkins and Fastlane. Tech stack used was Swift, Objective C, React native, JS and GoLang."
+						description="Worked on Jabong's native iOS mobile app for the initial year and then contributed to Myntra's mobile app which was written on top of React native. Implemented rich notifications, seamless login, and Myntra's category tab. Automated Jabong's iOS app using Jenkins and Fastlane. The tech stack used was Swift, Objective C, React native, JS, and GoLang."
 					/>
 				</div>
 			</div>
