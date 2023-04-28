@@ -12,20 +12,10 @@ const InfoComponent: React.FunctionComponent<IInfoComponentProps> = (props) => {
 			<div className="px-8">
 				<SectionHeader headerText="I N F O" />
 			</div>
-			<InfoItem heading="Name" caption="Akshat Sharma" icon="person" />
-			<InfoItem heading="Role" caption="Senior Software Engineer" icon="badge" />
-			<InfoItem heading="Address" caption="Noida, UP" icon="location_city" />
-			<InfoItem heading="Phone" caption="+91-9953005833" icon="phone_iphone" />
-			<InfoItem heading="Email" caption="akshatsharma3800@gmail.com" icon="email" />
-			<div className="d-flex pt-6 pl-10 ">
-				<Link appearance="subtle" href="https://github.com/aks3800">
-					GitHub
-				</Link>
-				<Seperator />
-				<Link appearance="subtle" href="https://www.linkedin.com/in/aks3800/">
-					LinkedIn
-				</Link>
-			</div>
+			<InfoItem heading="Name" caption="Mansi Sharma" icon="person" />
+			<InfoItem heading="Address" caption="Arc C, Al'Oud St,Al Reem Island,Abu Dhabi" icon="location_city" />
+			<InfoItem heading="Phone" caption="+971-551053376, +91-8375021245" icon="phone_iphone" />
+			<InfoItem heading="Email" caption="mansi.sharma596@gmail.com" icon="email" />
 		</div>
 	);
 };

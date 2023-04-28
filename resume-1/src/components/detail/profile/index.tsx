@@ -9,11 +9,7 @@ const ProfileSection: React.FunctionComponent<IProfileSectionProps> = (props) =>
 		<div className="d-flex flex-column">
 			<SectionHeader headerText="P R O F I L E" withDivider={false} />
 			<Text className="py-6" appearance="subtle" size="small">
-				I am a versatile and high energy computer science enthusiast, with the distinction of
-				executing projects with best possible quality within strict time constraint. I have been
-				into software development, application maintenance / support and project execution for
-				nearly 5 years. I am skilled in analysing and gathering requirements, evaluating end-to-end
-				use cases and proper planning before execution.
+				I am a versatile and high energy computer science enthusiast. I seek to work in an environment that will challenge me while allowing me to contribute to the growth and success of  the organization and gives a chance to show my enthusiasm, willingness and determination to learn new  technologies. 
 			</Text>
 		</div>
 	);

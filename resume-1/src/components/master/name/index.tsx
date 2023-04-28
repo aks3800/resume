@@ -10,7 +10,7 @@ const NameComponent: React.FunctionComponent<INameComponentProps> = (props) => {
 			<div className="d-flex flex-column align-items-center">
 				<div className="bg-light w-100 d-flex justify-content-center">
 					<Heading size="xl" className="bolder">
-						A K S H A T
+						M A N S I
 					</Heading>
 				</div>
 				<div className="d-flex flex-column align-items-center w-100 custom-bg">
@@ -18,7 +18,7 @@ const NameComponent: React.FunctionComponent<INameComponentProps> = (props) => {
 						S H A R M A
 					</Heading>
 					<Text className="pt-4 italic" appearance="subtle">
-						Full Stack Developer
+						Research Associate
 					</Text>
 				</div>
 			</div>

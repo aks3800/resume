@@ -11,20 +11,39 @@ const ExperienceSection: React.FunctionComponent<IExperienceSectionProps> = (pro
 				<SectionHeader headerText="E X P E R I E N C E" />
 				<div className="pt-5">
 					<DetailItem
-						startYear="2020"
-						title="Senior Software Engineer"
-						caption="Innovaccer Inc., Noida (Healthcare)"
-						description="Worked for client like Roche on the product AIMS as a full stack developer. Currently performing all duties of Team Lead, and contributing to frontend, backend, mobile and DevOps.
-						Leading Innovaccer's open source mobile design system team and managing the efforts of the mobile team. Having ownership of all the apps on iOS platform in the company and frontend of Roche. Have single handedly made CI/CD pipeline for mobile apps. Created custom dart-pad and dart-services for developers to try out design system. Have also worked on projects like CBO, Patient App and InNote. Tech stack currently being used is react, django and flutter."
+						startYear="2019"
+						endYear='2023'
+						title="Research Associate"
+						caption="Jaypee Institute of Information Technology"
+						description=" Researched and worked on the Fog Computing Architecture alongwith Machine Learning and Deep Learning Algorithms under the supervision of an Associate Professor.
+						Provided teaching assistantship by conducting technical laboratories for undergraduate computer science students.
+						Prepared lab tests and evaluated students for projects and lab tests.
+
+				"
 					/>
 				</div>
 				<div className="pt-5">
 					<DetailItem
 						startYear="2018"
-						endYear="2020"
-						title="Software Engineer"
-						caption="Myntra-Jabong, Gurgaon (E-commerce)"
-						description="Worked on Jabong's native iOS mobile app for initial year and then contributed to Myntra's mobile app which was written on top of React native. Implemented rich notifications, seamless login and Myntra's category tab. Automated Jabong's iOS app using Jenkins and Fastlane. Tech stack used was Swift, Objective C, React native, JS and GoLang."
+						endYear="2019"
+						title="Assistant Professor"
+						caption="Aravali College of Engineering and Management"
+						description="Delivered lectures to undergraduate students on various computer science subjects. Conducted and graded student examinations at institute and University level. Developed curriculums and course materials. Participated in campus meetings and cordinated networking workshop for students. Participated actively in faculty development programmes.   "
+					/>
+				</div>
+				<div className='pt-5'><SectionHeader headerText="C E R T I F I C A T I O N S" /></div>
+				<div className="pt-5">
+					<DetailItem
+						startYear=""
+						title="Machine Learning workshop"
+						caption="AICTE HQ, New Delhi"
+					/>
+				</div>
+				<div className="pt-5">
+					<DetailItem
+						startYear=""
+						title="NPTEL Online Certification on Machine Learning"
+						caption=""
 					/>
 				</div>
 			</div>

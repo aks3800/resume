@@ -11,20 +11,39 @@ const EducationSection: React.FunctionComponent<IEducationSectionProps> = (props
 			<div className="d-flex flex-column">
 				<SectionHeader headerText="E D U C A T I O N" />
 			</div>
-			<div className="pt-5">
-				<DetailItem
-					startYear="2013"
-					endYear="2018"
-					title="BTech + MTech with 7.8 CGPA"
-					caption="Jaypee Institute of Information Technology, Noida-62"
+			<div className="pt-3">
+			<DetailItem
+					startYear="2019"
+					endYear="-"
+					title="PHD"
+					caption="Jaypee Institute of Information Technology, Noida Sec-62"
 				/>
+				</div>
+
+			<div className="pt-3">
+			<DetailItem
+					startYear="2016"
+					endYear="2018"
+					title="M.Tech"
+					caption="Jaypee Institute of Information Technology, Noida Sec-62"
+				/>
+
 			</div>
-			<div className="pt-4">
-				<DetailItem
+			<div className="pt-3">
+			<DetailItem
 					startYear="2011"
-					endYear="2013"
-					title="High school (88.8%) & Intermediate (90.4%)"
-					caption="Doon Blossoms School, Dehradun"
+					endYear="2015"
+					title="BTech"
+					caption="Echelon Institute of Technology, Faridabad"
+				/>
+				
+			</div>
+			<div className="pt-3cw">
+				<DetailItem
+					startYear="2010"
+					endYear="2011"
+					title="Senior Secondary"
+					caption="Tagore Academy Public School(CBSE)"
 				/>
 			</div>
 		</div>

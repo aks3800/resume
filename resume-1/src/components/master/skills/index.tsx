@@ -11,19 +11,15 @@ const SkillsComponent: React.FunctionComponent<ISkillsComponentProps> = (props) 
 			<div className="px-8">
 				<SectionHeader headerText="S K I L L S" />
 			</div>
-			<SkillItem skillHeader="React" skillType={SkillType.Frontend} score={80} />
-			<SkillItem skillHeader="iOS" skillType={SkillType.Mobile} score={90} />
-			<SkillItem skillHeader="Flutter" skillType={SkillType.Mobile} score={90} />
-			<SkillItem skillHeader="Django" skillType={SkillType.Backend} score={60} />
-			<SkillItem skillHeader="SpringBoot" skillType={SkillType.Backend} score={50} />
-			<SkillItem skillHeader="JavaScript" skillType={SkillType.ProgrammingLanguage} score={80} />
-			<SkillItem skillHeader="Swift" skillType={SkillType.ProgrammingLanguage} score={90} />
-			<SkillItem skillHeader="Python" skillType={SkillType.ProgrammingLanguage} score={80} />
-			<SkillItem skillHeader="Java" skillType={SkillType.ProgrammingLanguage} score={70} />
-			<SkillItem skillHeader="Dart" skillType={SkillType.ProgrammingLanguage} score={80} />
-			<SkillItem skillHeader="CI/CD" skillType={SkillType.Automation} score={80} />
-			<SkillItem skillHeader="MacOS" skillType={SkillType.Platform} score={90} />
-			<SkillItem skillHeader="Docker" skillType={SkillType.Platform} score={80} />
+			<SkillItem skillHeader="Communication" skillType={SkillType.Personality} score={80} />
+			<SkillItem skillHeader="Data Structures" skillType={SkillType.ProgrammingLanguage} score={60} />
+			<SkillItem skillHeader="C" skillType={SkillType.ProgrammingLanguage} score={80} />
+			<SkillItem skillHeader="Python" skillType={SkillType.ProgrammingLanguage} score={90} />
+			<SkillItem skillHeader="Core Java" skillType={SkillType.ProgrammingLanguage} score={60} />
+			<SkillItem skillHeader="Machine Learning" skillType={SkillType.Conceptual} score={70} />
+			<SkillItem skillHeader="Deep Learning" skillType={SkillType.Conceptual} score={50} />
+			<SkillItem skillHeader="Compiler Design" skillType={SkillType.Conceptual} score={70} />
+			<SkillItem skillHeader="Operating system" skillType={SkillType.Conceptual} score={70} />
 		</div>
 	);
 };
