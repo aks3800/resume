@@ -12,7 +12,7 @@ const DetailSection: React.FunctionComponent<IDetailSectionProps> = (props) => {
 			<div>
 				<ExperienceSection />
 			</div>
-			<div className="pt-10">
+			<div className="pt-8">
 				<EducationSection />
 			</div>
 		</div>
