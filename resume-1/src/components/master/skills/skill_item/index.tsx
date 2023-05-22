@@ -9,6 +9,7 @@ export enum SkillType {
 	ProgrammingLanguage,
 	Automation,
 	Platform,
+	DataScience
 }
 
 interface ISkillItemProps {
@@ -34,18 +35,20 @@ const SkillItem: React.FunctionComponent<ISkillItemProps> = (props) => {
 				return 'Automation';
 			case SkillType.Platform:
 				return 'Platform';
+			case SkillType.DataScience:
+				return 'Data Science';
 		}
 	};
 
 	return (
 		<div className="px-8 custom pt-4">
-			<div className="d-flex ">
+			<div className="d-flex justify-content-between align-items-center">
 				<Label>{skillHeader}</Label>
 				<div className="pl-6">
 					<Caption>{getSkillTypeText(skillType)}</Caption>
 				</div>
 			</div>
-			<div className="py-3">
+			<div className="py-3 caption-text">
 				<ProgressBar value={score} />
 			</div>
 		</div>

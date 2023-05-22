@@ -10,3 +10,7 @@
 	border-radius: var(--spacing-m);
 	transition: width 200ms;
 }
+
+.caption-text {
+	text-align: right;
+}
