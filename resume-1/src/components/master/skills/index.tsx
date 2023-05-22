@@ -20,6 +20,9 @@ const SkillsComponent: React.FunctionComponent<ISkillsComponentProps> = (props) 
 			<SkillItem skillHeader="Deep Learning" skillType={SkillType.Conceptual} score={50} />
 			<SkillItem skillHeader="Compiler Design" skillType={SkillType.Conceptual} score={70} />
 			<SkillItem skillHeader="Operating system" skillType={SkillType.Conceptual} score={70} />
+			<SkillItem skillHeader="SQL" skillType={SkillType.Database} score={80} />
+			<SkillItem skillHeader="Excel" skillType={SkillType.DataAnalysis} score={70} />
+			<SkillItem skillHeader="Tableau" skillType={SkillType.DataAnalysis} score={60} />
 		</div>
 	);
 };
