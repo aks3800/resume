@@ -13,7 +13,7 @@ const ExperienceSection: React.FunctionComponent<IExperienceSectionProps> = (pro
 					<DetailItem
 						startYear="2020"
 						title="Senior Software Engineer"
-						caption="Innovaccer Inc., Noida (Healthcare)"
+						caption="Innovaccer Health Limited, Abu Dhabi (Healthcare)"
 						description="At Innovaccer, I worked as a Full-Stack Developer and Team Lead, contributing to the development and maintenance of their SaaS products. Collaborating with clients like Roche, I led a cross-functional team, overseeing frontend, backend, mobile, and DevOps responsibilities. As part of my role, I managed Innovaccer's open-source mobile design system team, ensuring its smooth functioning. I owned all iOS platform apps within the company and front-end development for Roche. Notably, I established a CI/CD pipeline and created custom DartPad and Dart Services. I actively contributed to various projects, including CBO, Patient App, and InNote. The tech stack I utilized comprised NextJS, React, Django, and Flutter."
 					/>
 				</div>

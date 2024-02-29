@@ -9,7 +9,8 @@ export enum SkillType {
 	ProgrammingLanguage,
 	Automation,
 	Platform,
-	DataScience
+	DataScience,
+	Infra,
 }
 
 interface ISkillItemProps {
@@ -27,6 +28,8 @@ const SkillItem: React.FunctionComponent<ISkillItemProps> = (props) => {
 				return 'Frontend';
 			case SkillType.Backend:
 				return 'Backend';
+			case SkillType.Infra:
+				return 'DevOps';
 			case SkillType.Mobile:
 				return 'Mobile';
 			case SkillType.ProgrammingLanguage:
