@@ -6,7 +6,7 @@ interface INameComponentProps {}
 const NameComponent: React.FunctionComponent<INameComponentProps> = (props) => {
 	return (
 		<div className="">
-			<div className="bg-light" style={{ height: 'var(--spacing-3)' }}></div>
+			<div className="bg-light" style={{ height: 'var(--spacing-2)' }}></div>
 			<div className="d-flex flex-column align-items-center">
 				<div className="bg-light w-100 d-flex justify-content-center">
 					<Heading size="xl" className="bolder">
@@ -18,7 +18,7 @@ const NameComponent: React.FunctionComponent<INameComponentProps> = (props) => {
 						S H A R M A
 					</Heading>
 					<Text className="pt-4 italic" appearance="subtle">
-						Full Stack Developer
+						Senior Software Engineer
 					</Text>
 				</div>
 			</div>

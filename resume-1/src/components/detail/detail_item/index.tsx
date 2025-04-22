@@ -23,7 +23,7 @@ const DetailItem: React.FunctionComponent<IDetailItemProps> = (props) => {
 				)}
 			</div>
 			<div className="d-flex h-100 flex-column">
-				<div className="px-4 pt-3">
+				<div className="px-4 pt-4">
 					<Seperator />
 				</div>
 			</div>
@@ -35,7 +35,13 @@ const DetailItem: React.FunctionComponent<IDetailItemProps> = (props) => {
 					{caption}
 				</Text>
 				{description && (
-					<Text size="small" appearance="subtle" className="pt-4">
+					<Text
+						size="small"
+						appearance="default"
+						color="inverse-light"
+						className="pt-4"
+						style={{ textAlign: 'justify' }}
+					>
 						{description}
 					</Text>
 				)}

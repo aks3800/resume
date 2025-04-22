@@ -9,21 +9,21 @@ const ExperienceSection: React.FunctionComponent<IExperienceSectionProps> = (pro
 		<div>
 			<div className="d-flex flex-column">
 				<SectionHeader headerText="E X P E R I E N C E" />
-				<div className="pt-5">
+				<div className="pt-4">
 					<DetailItem
 						startYear="2020"
 						title="Senior Software Engineer"
-						caption="Innovaccer Health Limited, Abu Dhabi (Healthcare)"
-						description="At Innovaccer, I worked as a Full-Stack Developer and Team Lead, contributing to the development and maintenance of their SaaS products. Collaborating with clients like Roche, I led a cross-functional team, overseeing frontend, backend, mobile, and DevOps responsibilities. As part of my role, I managed Innovaccer's open-source mobile design system team, ensuring its smooth functioning. I owned all iOS platform apps within the company and front-end development for Roche. Notably, I established a CI/CD pipeline and created custom DartPad and Dart Services. I actively contributed to various projects, including CBO, Patient App, and InNote. The tech stack I utilized comprised NextJS, React, Django, and Flutter."
+						caption="Innovaccer Health Limited, Abu Dhabi"
+						description="At Innovaccer, I currently lead the development of AI-powered features for the Contact Center product, which enables hospital agents to manage patient calls efficiently. I played a key role in building CTI (Computer Telephony Integration) and the agent work queue, which tracks assignments and real-time task statuses. One of my most impactful contributions has been the Ambient Ticket Documentation system—a voice-to-text AI solution that transcribes patient-agent conversations, generates concise summaries, and auto-fills ticket details. This innovation reduced ticket documentation time from 30 seconds to just 7 seconds, greatly enhancing productivity. Prior to this, I worked on Innovaccer’s core SaaS products and led client-facing initiatives for Roche, where I owned all iOS apps, managed the open-source mobile design system, and oversaw frontend and mobile development. My work spans a wide-ranging tech stack including React, Next.js, Django, Flutter, and CI/CD tooling."
 					/>
 				</div>
-				<div className="pt-5">
+				<div className="pt-4">
 					<DetailItem
 						startYear="2018"
 						endYear="2020"
 						title="Software Engineer"
 						caption="Myntra-Jabong, Gurgaon (E-commerce)"
-						description="At Jabong, I worked on the native iOS mobile app, and later transitioned to contribute to Myntra's mobile app built on React Native. I played a key role in implementing features such as rich notifications, seamless login, and Myntra's category tab, enhancing the user experience. Additionally, I automated Jabong's iOS app using Jenkins and Fastlane to streamline the build and deployment process. Throughout these projects, I utilized a tech stack that included Swift, Objective C, React Native, JS, and GoLang."
+						description="At Jabong, I worked on the native iOS app using Swift and Objective-C, and later contributed to Myntra’s React Native mobile app. I implemented key features like rich notifications, seamless login, and the category tab to enhance user experience. I also automated Jabong’s iOS build and deployment process using Jenkins and Fastlane, improving release efficiency. My work spanned across Swift, Objective-C, React Native, JavaScript, and GoLang."
 					/>
 				</div>
 			</div>

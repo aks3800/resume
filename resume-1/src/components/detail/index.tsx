@@ -7,12 +7,12 @@ interface IDetailSectionProps {}
 
 const DetailSection: React.FunctionComponent<IDetailSectionProps> = (props) => {
 	return (
-		<div className="pt-8 px-8">
+		<div className="pt-6 px-8">
 			<ProfileSection />
 			<div>
 				<ExperienceSection />
 			</div>
-			<div className="pt-8">
+			<div className="pt-4">
 				<EducationSection />
 			</div>
 		</div>

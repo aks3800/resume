@@ -11,7 +11,7 @@ const EducationSection: React.FunctionComponent<IEducationSectionProps> = (props
 			<div className="d-flex flex-column">
 				<SectionHeader headerText="E D U C A T I O N" />
 			</div>
-			<div className="pt-5">
+			<div className="pt-1">
 				<DetailItem
 					startYear="2013"
 					endYear="2018"

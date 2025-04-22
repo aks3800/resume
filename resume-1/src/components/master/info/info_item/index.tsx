@@ -19,7 +19,7 @@ const InfoItem: React.FunctionComponent<IInfoItemProps> = (props) => {
 				<Text weight="medium" size="regular">
 					{heading}
 				</Text>
-				<Text size="regular" appearance="subtle" className="pt-1">
+				<Text size="regular" appearance="subtle" color="inverse-light" className="pt-1">
 					{caption}
 				</Text>
 			</div>
