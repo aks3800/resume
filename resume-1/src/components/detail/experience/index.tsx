@@ -9,7 +9,7 @@ const ExperienceSection: React.FunctionComponent<IExperienceSectionProps> = (pro
 		<div>
 			<div className="d-flex flex-column">
 				<SectionHeader headerText="E X P E R I E N C E" />
-				<div className="pt-4">
+				<div className="pt-1">
 					<DetailItem
 						startYear="2020"
 						title="Senior Software Engineer"

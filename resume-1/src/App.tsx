@@ -3,19 +3,13 @@ import DetailSection from './components/detail';
 import MasterSection from './components/master';
 import './styles.css';
 import { Button } from '@innovaccer/design-system';
-import html2canvas from 'html2canvas';
-import jsPDF from 'jspdf';
-
 const App = () => {
 	const exportResume = () => {
-		const input = document.getElementById('resume');
-		input &&
-			html2canvas(input).then((canvas) => {
-				const imgData = canvas.toDataURL('image/png');
-				const pdf = new jsPDF();
-				pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297);
-				pdf.save('resume.pdf');
-			});
+		if ((window as any).exportToPDF) {
+			(window as any).exportToPDF();
+		} else {
+			console.error('exportToPDF function is not defined');
+		}
 	};
 
 	const resumeContainer = () => {
